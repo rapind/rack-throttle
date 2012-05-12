@@ -199,7 +199,7 @@ License
 `Rack::Throttle` is free and unencumbered public domain software. For more
 information, see <http://unlicense.org/> or the accompanying UNLICENSE file.
 
-[Rack]:            http://rack.rubyforge.org/
+[Rack]:            https://github.com/rack/rack
 [gdbm]:            http://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/classes/GDBM.html
 [memcached]:       http://rubygems.org/gems/memcached
 [memcache-client]: http://rubygems.org/gems/memcache-client
