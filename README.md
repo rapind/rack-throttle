@@ -1,10 +1,10 @@
 HTTP Request Rate Limiter for Rack Applications
 ===============================================
+[![Build Status](https://secure.travis-ci.org/npolar/rack-throttle.png)](https://secure.travis-ci.org/npolar/rack-throttle.png)
 
-This is [Rack][] middleware that provides logic for rate-limiting incoming
-HTTP requests to Rack applications. You can use `Rack::Throttle` with any
-Ruby web framework based on Rack, including with Ruby on Rails 3.0 and with
-Sinatra.
+`Rack::Throttle` is [Rack][] middleware that provides logic for rate-limiting incoming
+HTTP requests to any Rack applications. You can use `Rack::Throttle` with any
+Ruby web framework based on Rack, including Ruby on Rails and Sinatra.
 
 * <http://github.com/datagraph/rack-throttle>
 
