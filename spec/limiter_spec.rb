@@ -23,16 +23,16 @@ describe Rack::Throttle::Limiter do
         get "/foo"
         last_response.body.should show_throttled_response
       end
-      
+
       describe "RFC 6585" do
         it "should return status 429 (Too Many Requests)" do
           app.should_receive(:allowed?).and_return(false)
           get "/foo"
           last_response.status.should == 429
       end
-     
+
   end
-      
+
     end
 
     describe "allowed?" do
@@ -67,5 +67,5 @@ describe Rack::Throttle::Limiter do
       last_response.body.should show_throttled_response
     end
   end
-  
+
 end

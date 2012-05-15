@@ -1,6 +1,6 @@
 HTTP Request Rate Limiter for Rack Applications
 ===============================================
-[![Build Status](https://secure.travis-ci.org/npolar/rack-throttle.png)](https://secure.travis-ci.org/npolar/rack-throttle.png)
+[![Build Status](https://secure.travis-ci.org/npolar/rack-throttle.png)](https://secure.travis-ci.org/npolar/rack-throttle)
 
 `Rack::Throttle` is [Rack][] middleware that provides logic for rate-limiting incoming
 HTTP requests to any Rack applications. You can use `Rack::Throttle` with any
